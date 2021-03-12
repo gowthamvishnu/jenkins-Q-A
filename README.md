@@ -122,4 +122,7 @@ a)In windows:
   You can go to /etc/default/jenkins  
   Add --httpPort=9999 or whatever port to JENKINS_ARGS.
   Then you should restart Jenkins with sudo service jenkins restart.
+  
+  24)how to login if you forgrt ur password of jenkins?
+  a)go to the inside of your jenkins-->jenkinshome-->secrets-->intialadminpassword
 
