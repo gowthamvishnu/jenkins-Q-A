@@ -114,5 +114,12 @@ HTML Publisher
 21) What is Groovy?
 A)Groovy from Apache is a language for Java platform. It is the native scripting language for Jenkins. Groovy-based plugins enhance Jenkins with great interfaces and build reports that are dynamic and consistent.
 
-
+22)How to change jenkins default port?
+a)In windows:
+  go to the location where jenkins is installed..if it is windows machine from command line use  
+  cmd: java -jar jenkins.war --httpport=9090
+  In case you want to change the default jenkins port on Linux,
+  You can go to /etc/default/jenkins  
+  Add --httpPort=9999 or whatever port to JENKINS_ARGS.
+  Then you should restart Jenkins with sudo service jenkins restart.
 
